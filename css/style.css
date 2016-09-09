@@ -31,12 +31,14 @@ video {
 .myIcons {
     color: white;
     margin: none;
-    position: relative;
-    padding-left: 50px;
-    padding-top: 520px;
-    padding-bottom: 10px;
+    padding: none;
+    position: fixed;
+    bottom: 0;
     letter-spacing: 5px;
-    display: block;
+}
+
+a { 
+    color: inherit; 
 }
 
 @media screen and (max-width: 500px) { 
