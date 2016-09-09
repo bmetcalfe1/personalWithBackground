@@ -19,7 +19,7 @@ video {
 }
 
 .myHeadline { 
-    font-family: 'Bungee Shade', cursive;
+    font-family: 'Bungee Shade', cursive, Times;
     font-weight:100; 
     color: black;
     margin: none;
@@ -55,7 +55,7 @@ a:hover {
 
 @media (max-width: 415px) { 
     .myHeadline {
-        font-size: 40px;
+        font-size: 50px;
         text-align: center;
     }
 }
